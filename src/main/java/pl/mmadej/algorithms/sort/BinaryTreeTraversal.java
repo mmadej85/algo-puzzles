@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-public class TreeTraversal {
+public class BinaryTreeTraversal {
 
     public <T extends Comparable<T>> List<T> inorder(BinaryTreeNode<T> root) {
         Stack<BinaryTreeNode<T>> stack = new Stack<>();

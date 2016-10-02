@@ -10,7 +10,7 @@ import static org.hamcrest.core.Is.is;
 import static org.hamcrest.core.IsEqual.equalTo;
 import static org.junit.Assert.assertThat;
 
-public class TreeTraversalTest {
+public class BinaryTreeTraversalTest {
 
     private BinaryTreeNode<Integer> node_1 = new BinaryTreeNode<>(1);
     private BinaryTreeNode<Integer> node_2 = new BinaryTreeNode<>(2);
@@ -23,7 +23,7 @@ public class TreeTraversalTest {
     private BinaryTreeNode<Integer> node_13 = new BinaryTreeNode<>(13);
     private BinaryTreeNode<Integer> node_16 = new BinaryTreeNode<>(16);
     private BinaryTreeNode<Integer> node_17 = new BinaryTreeNode<>(17);
-    private TreeTraversal traverse = new TreeTraversal();
+    private BinaryTreeTraversal traverse = new BinaryTreeTraversal();
 
 
     /*
